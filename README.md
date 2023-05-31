@@ -26,3 +26,8 @@ Ceny potravín sa medzi rokmi pohybovali veľmi divoko, či už jedným alebo dr
 Vzhľadom na veľký počet zamestnaní, potravín a ich veľmi rôzne nárasty medzi rokmi, rozhodol som sa spriemerovať hodnoty nárastov platov a cien potravín za jednotlivé roky a následne medzi nimi spraviť rozdiel.
 
 Podľa tohto scenáru mi vychádza, že jediný rok, kedy bol medziročný nárast potravín väčší ako 10%, bol rok 2008-2009, kedy bol rozdiel medzi priemerom nárastov cien potravín a nárastov platov 11,61%. Toho roku šli potraviny dole v priemere o 7,53%. pričom platy zamestnancov boli zvýšené v priemere o 4,08%.
+
+## 5. Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo násdujícím roce výraznějším růstem?
+Roky, kedy HDP Českej republiky výraznejšie stúplo (bavme sa viac ako 5%), boli 2007, 2015 a 2017.
+V týchto rokoch bol a taktiež v roku po boli zaznamenané pomerne výrazne zvýšenia priemerných platov.
+Z týchto rokov potraviny výrazne zdraželi v roku 2007 (v priemere 14,7%) a v roku 2017 (v priemere 9.05%)
