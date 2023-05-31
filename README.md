@@ -30,4 +30,4 @@ Podľa tohto scenáru mi vychádza, že jediný rok, kedy bol medziročný nára
 ## 5. Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo násdujícím roce výraznějším růstem?
 Roky, kedy HDP Českej republiky výraznejšie stúplo (bavme sa viac ako 5%), boli 2007, 2015 a 2017.
 V týchto rokoch a taktiež rok po boli zaznamenané pomerne výrazne zvýšenia priemerných platov.
-Z týchto rokov potraviny výrazne zdraželi v roku 2007 (v priemere 14,7%) a v roku 2017 (v priemere 9.05%)
+Potraviny výrazne zdraželi v roku 2007 (v priemere 14,7%) a v roku 2017 (v priemere 9.05%)
