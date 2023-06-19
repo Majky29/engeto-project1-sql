@@ -4,6 +4,7 @@
 SELECT 
 	industry_branch,
 	industry_branch_code,
+	payroll_year,
 	average_wages,
 	food_category,
 	food_price,
@@ -11,7 +12,12 @@ SELECT
 	DATE_FORMAT(MIN(price_measured_to), '%e. %M %Y') AS p_measured_to,
 	ROUND(average_wages/food_price,1) AS affordable_amount_of_food
 FROM t_mario_soldan_project_SQL_primary_final
-WHERE food_category_code = '111301' 
+WHERE food_category_code = '111301' AND payroll_year = (
+	SELECT 
+		YEAR(price_measured_from)
+	FROM t_mario_soldan_project_SQL_primary_final
+	ORDER BY price_measured_from ASC
+	LIMIT 1)
 GROUP BY industry_branch_code
 ORDER BY industry_branch_code ASC;
 
@@ -19,6 +25,7 @@ ORDER BY industry_branch_code ASC;
 SELECT 
 	industry_branch,
 	industry_branch_code,
+	payroll_year,
 	average_wages,
 	food_category,
 	food_price,
@@ -26,7 +33,12 @@ SELECT
 	DATE_FORMAT(MIN(price_measured_to), '%e. %M %Y') AS p_measured_to,
 	ROUND(average_wages/food_price,1) AS affordable_amount_of_food
 FROM t_mario_soldan_project_SQL_primary_final
-WHERE food_category_code = '114201'
+WHERE food_category_code = '114201' AND payroll_year  = (
+	SELECT 
+		YEAR(price_measured_from)
+	FROM t_mario_soldan_project_SQL_primary_final
+	ORDER BY price_measured_from ASC
+	LIMIT 1)
 GROUP BY industry_branch_code
 ORDER BY industry_branch_code ASC;
 
@@ -34,6 +46,7 @@ ORDER BY industry_branch_code ASC;
 SELECT 
 	industry_branch,
 	industry_branch_code,
+	payroll_year,
 	average_wages,
 	food_category,
 	food_price,
@@ -41,7 +54,12 @@ SELECT
 	DATE_FORMAT(MAX(price_measured_to), '%e. %M %Y') AS p_measured_to,
 	ROUND(average_wages/food_price,1) AS affordable_amount_of_food
 FROM t_mario_soldan_project_SQL_primary_final
-WHERE food_category_code = '111301'
+WHERE food_category_code = '111301' AND payroll_year = (
+	SELECT 
+		YEAR(price_measured_from)
+	FROM t_mario_soldan_project_SQL_primary_final
+	ORDER BY price_measured_from DESC
+	LIMIT 1)
 GROUP BY industry_branch_code
 ORDER BY industry_branch_code ASC;
 
@@ -49,6 +67,7 @@ ORDER BY industry_branch_code ASC;
 SELECT 
 	industry_branch,
 	industry_branch_code,
+	payroll_year,
 	average_wages,
 	food_category,
 	food_price,
@@ -56,6 +75,11 @@ SELECT
 	DATE_FORMAT(MAX(price_measured_to), '%e. %M %Y') AS p_measured_to,
 	ROUND(average_wages/food_price,1) AS affordable_amount_of_food
 FROM t_mario_soldan_project_SQL_primary_final
-WHERE food_category_code = '114201'
+WHERE food_category_code = '114201' AND payroll_year = (
+	SELECT 
+		YEAR(price_measured_from)
+	FROM t_mario_soldan_project_SQL_primary_final
+	ORDER BY price_measured_from DESC
+	LIMIT 1)
 GROUP BY industry_branch_code
 ORDER BY industry_branch_code ASC;
