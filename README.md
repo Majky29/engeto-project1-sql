@@ -16,4 +16,4 @@ Zaujímavý prípad je cukor kryštáľový, ktorý v zaznamenanom období zlacn
 Áno, bol to rok 2013. V tom roku klesli platy v primere o 2,82% a potraviny stúpli o 7,29%, čo robí rozdiel 10,71%
 
 ## 5. Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo násdujícím roce výraznějším růstem?
-Áno. Česku rástlo ročne HDP výraznejšie (viac ako 5%) 3x v dostupných dátach a všetky tri razy boli zaznamenané zvýšenie priemerné hodnoty cien potravín a taktiež aj výšky platov. 
+Áno. Česku rástlo ročne HDP výraznejšie (viac ako 5%) 3x v dostupných dátach a všetky tri razy bolo zaznamenané zvýšenie priemerných hodnôt cien potravín a taktiež aj výšok platov. 
